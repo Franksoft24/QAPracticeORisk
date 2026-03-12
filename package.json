@@ -1,0 +1,23 @@
+{
+  "name": "qapracticeorisk",
+  "version": "1.0.0",
+  "description": "QA practice using playwright.",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Franksoft24/QAPracticeORisk.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Franksoft24/QAPracticeORisk/issues"
+  },
+  "homepage": "https://github.com/Franksoft24/QAPracticeORisk#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^25.5.0"
+  }
+}
