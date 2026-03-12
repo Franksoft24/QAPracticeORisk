@@ -1,0 +1,32 @@
+{
+    "credentials": {
+        "username": "tomsmith",
+        "password": "SuperSecretPassword!"
+    },
+    "wrongCredentials": {
+        "username": "wronguser",
+        "password": "wrongpassword"
+    },
+    "emptyCredentials": {
+        "username": "",
+        "password": ""
+    },
+    "emptyPassword": {
+        "username": "tomsmith",
+        "password": ""
+    },
+    "wrongPassword": {
+        "username": "tomsmith",
+        "password": "wrongpassword"
+    },
+    "wrongUsername": {
+        "username": "wronguser",
+        "password": "SuperSecretPassword!"
+    },
+    "expectedMessages": {
+        "success": " You logged into a secure area!",
+        "logOut": "You logged out of the secure area!",
+        "empty": "Your username is invalid!",
+        "emptyPassword": "Your password is invalid!"
+    }
+}
