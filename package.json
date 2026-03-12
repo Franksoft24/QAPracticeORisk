@@ -3,7 +3,12 @@
   "version": "1.0.0",
   "description": "QA practice using playwright.",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "report:html": "playwright show-report"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Franksoft24/QAPracticeORisk.git"
